@@ -8,8 +8,8 @@ function RootLayout() {
     return (
       <div>
         <NavBar />
-        <main>
-          <Outlet />
+            <main className={classes.content}>
+            <Outlet />
         </main>
       </div>
     );

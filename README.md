@@ -1,10 +1,10 @@
 # EventsMulti
-General Practice Site 
+General Practice Site for Router Functions
 
 ## Technology Stack
 Front-End: HTML5, CSS, REACT, Node.js
 
-Back-End: Firebase
+Back-End: Firebase? tbd?
 
 
 

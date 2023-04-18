@@ -1,4 +1,7 @@
 .header {
+  background-color: #1f1d1b;
+  color: #fcf3e1;
+  border-bottom: 4px solid #656360;
   max-width: 60rem;
   margin: auto;
   padding: 2rem;
@@ -7,17 +10,29 @@
 }
 
 .list {
+  
+  margin: 0;
+  padding: 0;
   display: flex;
   gap: 1rem;
+  list-style-type: none;
 }
 
 .list a {
   text-decoration: none;
+  /* color: oldlace; */
   color: var(--color-primary-400);
+  
+  font-weight: bold;
+  padding: 24px 32px;
 }
 
 .list a:hover,
 .list a.active {
   color: var(--color-primary-800);
   text-decoration: underline;
+  background: var(--color-primary-400);
+  /* background: rgba(255, 255, 255, 0.95); */
+  color: #1f1d1b;
+  border-radius: 10px;
 }
