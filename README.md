@@ -3,6 +3,7 @@ General Practice Site
 
 ## Technology Stack
 Front-End: HTML5, CSS, REACT, Node.js
+
 Back-End: Firebase
 
 
