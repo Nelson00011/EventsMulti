@@ -30,6 +30,13 @@ Back-End: Firebase? tbd?
 > npm run start
 ```
 
+### Back-End Helpful Hints (for Node.js environment)
+- You must run "npm install" in both project folders.
+- Thereafter, you can start the dummy backend API server via "npm start" (inside the "backend-api" folder).
+- The React app dev server is then also started via "npm start" (though inside the "react-frontend" folder).
+- The dummy backend API does not use any external database - instead the dummy data is saved to an "events.json" file inside the project folder.
+
 
 ## Resources & Helpful Hints:
 - [CSS modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) to allow styles to be treated like objects.
+- Requires backend & front end servers. 
