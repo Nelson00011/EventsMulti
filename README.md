@@ -2,9 +2,11 @@
 General Practice Site for Router Functions & more compilcated request. 
 
 ## Technology Stack
-Front-End: HTML5, CSS, REACT, Node.js
-APIs: TicketMaster or tbd?
-Back-End: Express.js, Firebase? tbd?
+**Front-End:** HTML5, CSS, REACT, Node.js
+
+**APIs:** TicketMaster or tbd?
+
+**Back-End:** Express.js, Firebase? tbd?
 
 
 ## Run Code (Environment)
@@ -59,4 +61,5 @@ Back-End: Express.js, Firebase? tbd?
 
 ## Resources & Helpful Hints:
 - [CSS modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) to allow styles to be treated like objects.
-- [TicketMaster](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
+- [TicketMaster API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
+- [GoogleMaps API](https://mapsplatform.google.com/?utm_source=search&utm_medium=googleads&utm_campaign=brand_core_exa_desk_mobile_us&gclid=CjwKCAjwov6hBhBsEiwAvrvN6It7s5nDPDkGxoELArYxrXgEEmysA79BnaoTIwxoXKs7NfHHeIvu_BoCmSIQAvD_BwE&gclsrc=aw.ds)
