@@ -1,11 +1,10 @@
 # EventsMulti
-General Practice Site for Router Functions
+General Practice Site for Router Functions & more compilcated request. 
 
 ## Technology Stack
 Front-End: HTML5, CSS, REACT, Node.js
-
-Back-End: Firebase? tbd?
-
+APIs: TicketMaster or tbd?
+Back-End: Express.js, Firebase? tbd?
 
 
 ## Run Code (Environment)
@@ -60,4 +59,4 @@ Back-End: Firebase? tbd?
 
 ## Resources & Helpful Hints:
 - [CSS modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) to allow styles to be treated like objects.
-- Requires backend & front end servers. 
+- [TicketMaster](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
