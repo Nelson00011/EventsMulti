@@ -8,7 +8,6 @@ Back-End: Firebase? tbd?
 
 
 
-
 ## Run Code (Environment)
 ### Front-End Helpful Hints (for Node.js environment)
 - confirm that config is up to date:
@@ -17,6 +16,7 @@ Back-End: Firebase? tbd?
 > node -v
 > npm -v
 > git --version
+> npm list react-router-dom
 ```
 
 - Initial package.json & install dependencies (localhost: 3000):
@@ -31,9 +31,30 @@ Back-End: Firebase? tbd?
 ```
 
 ### Back-End Helpful Hints (for Node.js environment)
-- You must run "npm install" in both project folders.
-- Thereafter, you can start the dummy backend API server via "npm start" (inside the "backend-api" folder).
-- The React app dev server is then also started via "npm start" (though inside the "react-frontend" folder).
+- confirm that config is up to date:
+
+```
+> node -v
+> npm -v
+> git --version
+> npm express -v 
+```
+
+- Initial package.json & install dependencies (localhost:8080):
+```
+> cd <backend name>
+> npm init -y
+> npm install express 
+```
+
+- In a separate terminal run
+```
+> npm start
+```
+
+
+- Thereafter, you can start the dummy backend API server via "npm start" (inside the "backend" folder).
+- The React app dev server is then also started via "npm start" (though inside the "frontend" folder).
 - The dummy backend API does not use any external database - instead the dummy data is saved to an "events.json" file inside the project folder.
 
 
