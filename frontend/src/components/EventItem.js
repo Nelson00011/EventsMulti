@@ -1,11 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link, useSubmit } from "react-router-dom";
 
 import classes from './EventItem.module.css';
 
 function EventItem({ event }) {
-  function startDeleteHandler() {
-    // ...
+const submit = useSubmit();
+
+function startDeleteHandler() {
+  const proceed = window.confirm('Are you sure?');
+
+  if (proceed) {
+    submit(null, { method: 'delete' });
   }
+}
 //TODO ADD: URL LinK, image ratio 3_2, location,
 
   return (
