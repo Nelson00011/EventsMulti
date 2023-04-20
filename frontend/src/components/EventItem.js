@@ -6,12 +6,14 @@ function EventItem({ event }) {
   function startDeleteHandler() {
     // ...
   }
+//TODO ADD: URL LinK, image ratio 3_2, location,
 
   return (
     <article className={classes.event}>
       <img src={event.image} alt={event.title} />
       <h1>{event.title}</h1>
       <time>{event.date}</time>
+       
       <p>{event.description}</p>
       <menu className={classes.actions}>
         <Link to="edit">Edit</Link>
