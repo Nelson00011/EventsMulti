@@ -4,13 +4,13 @@ General Practice Site for Router Functions & more compilcated request.
 ## Technology Stack
 **Front-End:** HTML5, CSS, REACT, Node.js
 
-**APIs:** TicketMaster or tbd?
+**APIs:** TicketMaster, Google Maps or tbd?
 
 **Back-End:** Express.js, Firebase? tbd?
 
 
 ## Run Code (Environment)
-### Front-End Helpful Hints (for Node.js environment)
+### Front-End Helpful Hints (Node.js)
 - confirm that config is up to date:
 
 ```
@@ -31,7 +31,7 @@ General Practice Site for Router Functions & more compilcated request.
 > npm run start
 ```
 
-### Back-End Helpful Hints (for Node.js environment)
+### Back-End Helpful Hints (Node.js)
 - confirm that config is up to date:
 
 ```
