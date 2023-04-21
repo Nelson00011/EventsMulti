@@ -6,7 +6,7 @@ function NewEventPage() {
   ///
 
 
-    return (<EventForm />)
+    return (<EventForm method="post"/>)
   }
   
   export default NewEventPage;

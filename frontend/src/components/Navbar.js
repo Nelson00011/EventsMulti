@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 import classes from './NavBar.module.css';
+import NewsletterSignup from './NewsletterSignup';
 
 function NavBar() {
   return (
@@ -19,7 +20,7 @@ function NavBar() {
             </NavLink>
           </li>
           <li>
-            <NavLink
+          <NavLink
               to="/events"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
@@ -28,8 +29,19 @@ function NavBar() {
               Events
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/newsletter"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              Newsletter
+            </NavLink>
+          </li>
         </ul>
       </nav>
+      <NewsletterSignup />
     </header>
   );
 }
