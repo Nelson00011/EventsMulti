@@ -10,7 +10,7 @@ function EventsPage() {
   //   return <p>{data.message}</p>;
   // }
  
-
+//Await expects Suspense wrapping.  
   return (
     <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>} >
       <Await resolve={events}>
