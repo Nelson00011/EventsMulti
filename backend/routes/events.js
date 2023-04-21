@@ -27,6 +27,8 @@ router.get('/:id', async (req, res, next) => {
   }
 });
 
+router.use(checkAuth);
+
 router.post('/', async (req, res, next) => {
   const data = req.body;
 
