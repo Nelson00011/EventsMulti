@@ -1,6 +1,11 @@
+import PageContent from '../components/PageContent';
+
 function HomePage() {
-  //TODO Category & Main search, login features.
-    return (<h1>HomePage</h1>);
-  }
-  
-  export default HomePage;
+  return (
+    <PageContent title="Welcome!">
+      <p>Browse all our amazing events!</p>
+    </PageContent>
+  );
+}
+
+export default HomePage;
