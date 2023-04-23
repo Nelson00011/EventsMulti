@@ -13,8 +13,6 @@ function AuthForm() {
   const navigation = useNavigation();
 
   const [searchParams] = useSearchParams();
-  console.log("SEARCHparams")
-  console.log(searchParams.get('mode'))
   const isLogin = searchParams.get('mode') === 'login';
   const isSubmitting = navigation.state === 'submitting';
 
@@ -39,7 +37,7 @@ function AuthForm() {
           <input id="password" type="password" name="password" required />
         </p>
         <div className={classes.actions}>
-          <Link to={`?mode=${isLogin ? 'signup' : 'login'}`} >
+          <Link to={`?mode=${isLogin ? 'signup' : 'login'}`}>
             {isLogin ? 'Create new user' : 'Login'}
           </Link>
           <button disabled={isSubmitting}>

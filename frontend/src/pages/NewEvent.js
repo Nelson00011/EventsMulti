@@ -30,7 +30,7 @@ function NewEventPage() {
       body: JSON.stringify(eventData)
     });
 
-    if (response.status == 422){
+    if (response.status === 422){
       return (response)
     }
 
