@@ -16,7 +16,6 @@ export async function action({ request }) {
     throw json({ message: 'Unsupported mode.' }, { status: 422 });
   }
 
-  //search for dataobject
   const data = await request.formData();
   const authData = {
     email: data.get('email'),
