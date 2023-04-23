@@ -58,7 +58,24 @@ General Practice Site for Router Functions & more compilcated request.
 > npm install jsonwebtoken
 > npm install bcryptjs
 ```
+- Add Auth functionality:
+> Required for **Auth.js**
+```
+export function getAuthToken(){
+    const token = localStorage.getItem('token');
+    return token;
+};
+```
 
+> Required for **Logout.js**
+```
+import { redirect } from "react-router-dom";
+
+export function action(){
+localStorage.removeItem('token');
+return redirect("/");
+}
+```
 
 - Thereafter, you can start the dummy backend API server via "npm start" (inside the "backend" folder).
 - The React app dev server is then also started via "npm start" (though inside the "frontend" folder).

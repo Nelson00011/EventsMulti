@@ -9,6 +9,7 @@ import {
 import classes from './AuthForm.module.css';
 
 function AuthForm() {
+  //gets data for action return
   const data = useActionData();
   const navigation = useNavigation();
 
@@ -38,7 +39,7 @@ function AuthForm() {
         </p>
         <div className={classes.actions}>
           <Link to={`?mode=${isLogin ? 'signup' : 'login'}`}>
-            {isLogin ? 'Create new user' : 'Login'}
+            {isLogin ? 'Create new user' : 'Go to Login'}
           </Link>
           <button disabled={isSubmitting}>
             {isSubmitting ? 'Submitting...' : 'Save'}

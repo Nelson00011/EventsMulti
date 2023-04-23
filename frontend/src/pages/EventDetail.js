@@ -9,6 +9,7 @@ import {
 
 import EventItem from '../components/EventItem';
 import EventsList from '../components/EventsList';
+import { getAuthToken } from '../uti/auth';
 
 
 function EventDetailPage() {
@@ -71,6 +72,7 @@ async function loadEvents() {
 
 export async function loader({ request, params }) {
   const id = params.eventId;
+  
 
   return defer({
     event: await loadEvent(id),
@@ -78,18 +80,22 @@ export async function loader({ request, params }) {
   });
 }
 
+//delete an Event action with auth
 export async function action({ params, request }) {
   const eventId = params.eventId;
+
+  const token = getAuthToken();
   const response = await fetch(`http://localhost:8080/events/${eventId}`, {
     method: request.method,
+    headers: {
+      'Authorization': "Bearer " + token,
+    }
   });
 
   if (!response.ok) {
     throw json(
       { message: 'Could not delete event.' },
-      {
-        status: 500,
-      }
+      { status: 500 }
     );
   }
   return redirect('/events');
