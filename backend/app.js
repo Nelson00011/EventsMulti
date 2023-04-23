@@ -4,6 +4,7 @@ const express = require('express');
 const eventRoutes = require('./routes/events');
 
 const app = express();
+const PORT = 8080;
 
 app.use(bodyParser.json());
 app.use((req, res, next) => {
@@ -21,4 +22,4 @@ app.use((error, req, res, next) => {
   res.status(status).json({ message: message });
 });
 
-app.listen(8080);
+app.listen(PORT);

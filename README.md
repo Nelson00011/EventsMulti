@@ -56,6 +56,7 @@ General Practice Site for Router Functions & more compilcated request.
 - Auth verification (see resources):
 ```
 > npm install jsonwebtoken
+> npm install bcryptjs
 ```
 
 
@@ -70,3 +71,4 @@ General Practice Site for Router Functions & more compilcated request.
 - [GoogleMaps API](https://mapsplatform.google.com/?utm_source=search&utm_medium=googleads&utm_campaign=brand_core_exa_desk_mobile_us&gclid=CjwKCAjwov6hBhBsEiwAvrvN6It7s5nDPDkGxoELArYxrXgEEmysA79BnaoTIwxoXKs7NfHHeIvu_BoCmSIQAvD_BwE&gclsrc=aw.ds)
 - [React-router-dom](https://reactrouter.com/en/main/components/await) Await Components and other useful information. 
 - [jsonwebtoken npm](https://www.npmjs.com/package/jsonwebtoken)
+- [bcrypt.js](https://www.npmjs.com/package/bcryptjs)

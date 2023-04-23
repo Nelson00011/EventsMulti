@@ -2,7 +2,6 @@ const { sign, verify } = require('jsonwebtoken');
 const { compare } = require('bcryptjs');
 const { NotAuthError } = require('./errors');
 
-//replace?
 const KEY = 'supersecret';
 
 function createJSONToken(email) {

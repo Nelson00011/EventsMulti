@@ -11,7 +11,7 @@ import RootLayout from './pages/Root';
 import NotFoundPage from './pages/NotFoundPage';
 import { action as manipulateEventAction } from './components/EventForm';
 import NewsletterPage, { action as newsletterAction } from './pages/Newsletter';
-import AuthenticationPage from './pages/Authentication';
+import AuthenticationPage, { action as authAction }from './pages/Authentication';
 
 
 const router = createBrowserRouter([
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     errorElement: <NotFoundPage />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "/auth",  element: <AuthenticationPage /> },
+      { path: "auth",  element: <AuthenticationPage />, action: authAction },
       {
         path: 'events',
         element: <EventsRootLayout />,
