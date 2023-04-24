@@ -13,7 +13,7 @@ import { action as manipulateEventAction } from './components/EventForm';
 import NewsletterPage, { action as newsletterAction } from './pages/Newsletter';
 import AuthenticationPage, { action as authAction } from './pages/Authentication';
 import { action as logoutAction } from './pages/Logout';
-import { loader as tokenLoader } from './uti/auth';
+import { checkAuthLoader, loader as tokenLoader } from './uti/auth';
 
 
 const router = createBrowserRouter([
@@ -38,9 +38,9 @@ const router = createBrowserRouter([
             id: 'event-detail',
             children:
             [{ index: true , element: <EventDetailPage />, action: deleteEventAction },
-            { path: 'edit', element: <EditEventPage />, action: manipulateEventAction }]
+            { path: 'edit', element: <EditEventPage />, action: manipulateEventAction, loader: checkAuthLoader }]
           },
-          { path: 'new', element: <NewEventPage />, action: manipulateEventAction }],
+          { path: 'new', element: <NewEventPage />, action: manipulateEventAction, loader: checkAuthLoader }],
       },
       { path: '*', element: <NotFoundPage /> },
       {

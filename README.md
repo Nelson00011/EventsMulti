@@ -2,11 +2,11 @@
 General Practice Site for Router Functions & more compilcated request.  
 
 ## Technology Stack
-**Front-End:** HTML5, CSS, REACT, Node.js
+**Front-End:** HTML5, CSS, REACT.js, Node.js
 
 **APIs:** TicketMaster, Google Maps or tbd?
 
-**Back-End:** Express.js, Firebase? JSONwebtoken?
+**Back-End:** Express.js, bcrypt.js, JSONwebtoken?
 
 
 ## Run Code (Environment)
