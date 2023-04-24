@@ -77,9 +77,31 @@ return redirect("/");
 }
 ```
 
+### Firebase Hosting
+- Hosting run with Firebase
+```
+> npm run build
+```
+- Firebase verification (see resources):
+```
+> npm install -g firebase-tools
+> firebase login
+> firebase init
+```
+- Select project associated with this build (RSA)
+- Once the deployed URL will be used for deployment
+
+- End Hosting:
+```
+> firebase hosting:disable
+```
+
+
 - Thereafter, you can start the dummy backend API server via "npm start" (inside the "backend" folder).
 - The React app dev server is then also started via "npm start" (though inside the "frontend" folder).
 - The dummy backend API does not use any external database - instead the dummy data is saved to an "events.json" file inside the project folder.
+- React single page (RSA) is a static site hosted on Firebase. 
+
 
 
 ## Resources & Helpful Hints:
@@ -89,3 +111,5 @@ return redirect("/");
 - [React-router-dom](https://reactrouter.com/en/main/components/await) Await Components and other useful information. 
 - [jsonwebtoken npm](https://www.npmjs.com/package/jsonwebtoken)
 - [bcrypt.js](https://www.npmjs.com/package/bcryptjs)
+- [Deployment](https://cra.link/deployment)
+- [Firebase](https://firebase.google.com/) Hosting for static site hosting service. [Firebase npm](https://www.npmjs.com/package/firebase-tools)
