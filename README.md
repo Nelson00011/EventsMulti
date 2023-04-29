@@ -1,12 +1,19 @@
-# EventsMulti
-General Practice Site for Router Functions & more compilcated request.  
+<h1 align="center">Event Planning App</h1>
+
+![image](https://user-images.githubusercontent.com/112737682/235285371-a3486e34-1ff6-4420-b08f-114224db5ba4.png)
+## Description
+**EventApp** is a **REACT.js** application designed to allows user to organize events. 
+- User Authentification via *JSONwebtokens* using *bcrypt* allows individuals ability to edit, delete & update events only if logged in.
+- *'react-router-dom'* is used to provide streamless transitioning across the web application. 
+- ***CSS.modules*** in combination with bootstraps provide a clean design aesthetic across the entire application. 
+
 
 ## Technology Stack
-**Front-End:** HTML5, CSS, REACT.js, Node.js
+**Front-End:** HTML5, CSS, REACT.js
 
-**APIs:** TicketMaster, Google Maps or tbd?
+**APIs:** TicketMaster, Google Maps ***in-progress***
 
-**Back-End:** Express.js, bcrypt.js, JSONwebtoken?
+**Back-End:** Express.js, bcrypt.js, JSONwebtoken, Node.js
 
 
 ## Run Code (Environment)
