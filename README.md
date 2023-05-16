@@ -117,7 +117,7 @@ return redirect("/");
 - [GoogleMaps API](https://mapsplatform.google.com/?utm_source=search&utm_medium=googleads&utm_campaign=brand_core_exa_desk_mobile_us&gclid=CjwKCAjwov6hBhBsEiwAvrvN6It7s5nDPDkGxoELArYxrXgEEmysA79BnaoTIwxoXKs7NfHHeIvu_BoCmSIQAvD_BwE&gclsrc=aw.ds)
 allows users to see exactly where they are going. 
 - [React-router-dom](https://reactrouter.com/en/main/components/await) Await Components and other useful information. 
-- [jsonwebtoken npm](https://www.npmjs.com/package/jsonwebtoken) part of user Authentification. 
+- [jsonwebtoken npm](https://www.npmjs.com/package/jsonwebtoken) part of user Authentification & [info](https://jwt.io/)
 - [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
 - [Deployment](https://cra.link/deployment) instructions for React.js Apps.
 - [Firebase](https://firebase.google.com/) Hosting for static site hosting service. [Firebase npm](https://www.npmjs.com/package/firebase-tools)
